@@ -10,6 +10,7 @@ namespace BancoBufunfaGUI
     {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         private double saldo = 10;
         public int numeroConta;
 
@@ -29,10 +30,16 @@ namespace BancoBufunfaGUI
         //Construtor Conta Corrente
         public ContaCorrente(int numero)
 >>>>>>> Stashed changes
+=======
+        Random randomId = new Random();
+        //Construtor Conta Corrente
+        public ContaCorrente(int numero)
+>>>>>>> Stashed changes
         {
             Console.WriteLine("Gerando o número da conta...  ");
             numero = randomId.Next(1, 999999999);
             this.SetNumeroConta(numero);
+<<<<<<< Updated upstream
         }
 
         public int GetNumeroConta()
@@ -46,6 +53,8 @@ namespace BancoBufunfaGUI
             Console.WriteLine("Gerando o número da conta...  ");
             numero = randomId.Next(1, 999999999);
             this.SetNumeroConta(numero);
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         }
     }

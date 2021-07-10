@@ -10,6 +10,10 @@ namespace BancoBufunfaGUI
     {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        private double saldo = 10;
+>>>>>>> Stashed changes
 =======
         private double saldo = 10;
 >>>>>>> Stashed changes
@@ -57,6 +61,9 @@ namespace BancoBufunfaGUI
             return true;
         }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

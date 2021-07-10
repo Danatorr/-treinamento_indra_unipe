@@ -19,10 +19,13 @@ namespace BancoBufunfaGUI
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             ContaCorrente conta1 = new ContaCorrente();
 
             Console.WriteLine($"O número da conta é: {conta1.GetNumeroConta()}");
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
             ContaCorrente contaCorrente1 = new ContaCorrente(0);
@@ -31,6 +34,9 @@ namespace BancoBufunfaGUI
             contaPoupanca1.SetSaldoDeposito(100);
             Console.WriteLine($"O rendimento deste mês foi: {contaPoupanca1.GetRendimento()}");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -47,7 +53,11 @@ namespace BancoBufunfaGUI
             value = Convert.ToDouble(Console.ReadLine());
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             conta1.SetSaldoSaque(value);
+=======
+            contaCorrente1.SetSaldoSaqueContaCorrente(value);
+>>>>>>> Stashed changes
 =======
             contaCorrente1.SetSaldoSaqueContaCorrente(value);
 >>>>>>> Stashed changes

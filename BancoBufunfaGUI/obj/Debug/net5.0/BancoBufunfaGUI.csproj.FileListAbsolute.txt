@@ -1,0 +1,5 @@
+D:\Meus documentos\Desktop\Programação e Estudos\Cursos\Curso de Férias\Banco Bufunfa\BufunfaBank\BancoBufunfaGUI\obj\Debug\net5.0\BancoBufunfaGUI.csproj.AssemblyReference.cache
+D:\Meus documentos\Desktop\Programação e Estudos\Cursos\Curso de Férias\Banco Bufunfa\BufunfaBank\BancoBufunfaGUI\obj\Debug\net5.0\BancoBufunfaGUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Meus documentos\Desktop\Programação e Estudos\Cursos\Curso de Férias\Banco Bufunfa\BufunfaBank\BancoBufunfaGUI\obj\Debug\net5.0\BancoBufunfaGUI.AssemblyInfoInputs.cache
+D:\Meus documentos\Desktop\Programação e Estudos\Cursos\Curso de Férias\Banco Bufunfa\BufunfaBank\BancoBufunfaGUI\obj\Debug\net5.0\BancoBufunfaGUI.AssemblyInfo.cs
+D:\Meus documentos\Desktop\Programação e Estudos\Cursos\Curso de Férias\Banco Bufunfa\BufunfaBank\BancoBufunfaGUI\obj\Debug\net5.0\BancoBufunfaGUI.csproj.CoreCompileInputs.cache

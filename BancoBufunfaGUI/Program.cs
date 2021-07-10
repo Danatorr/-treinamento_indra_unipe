@@ -17,24 +17,27 @@ namespace BancoBufunfaGUI
 
             */
 
-            ContaCorrente conta1 = new ContaCorrente();
+            ContaCorrente contaCorrente1 = new ContaCorrente();
+            ContaPoupanca contaPoupanca1 = new ContaPoupanca();
 
-            Console.WriteLine($"O número da conta é: {conta1.GetNumeroConta()}");
+            contaPoupanca1.SetSaldoDeposito(100);
+            Console.WriteLine(contaPoupanca1.GetRendimento());
 
-            Console.WriteLine(conta1.GetSaldo());
+            Console.WriteLine($"O número da conta é: {contaCorrente1.GetNumeroConta()}");
+            Console.WriteLine($"O número da conta é: {contaPoupanca1.GetNumeroConta()}");
 
             Console.WriteLine("Digite um valor para o depósito: ");
             double value = Convert.ToDouble(Console.ReadLine());
-            conta1.SetSaldoDeposito(value);
+            contaCorrente1.SetSaldoDeposito(value);
 
-            Console.WriteLine($"O novo saldo da conta é: R${conta1.GetSaldo()}");
+            Console.WriteLine($"O novo saldo da conta é: R${contaCorrente1.GetSaldo()}");
 
             Console.WriteLine("Digite um valor para o saque: ");
             value = Convert.ToDouble(Console.ReadLine());
-            conta1.SetSaldoSaque(value);
+            contaCorrente1.SetSaldoSaque(value);
             Console.WriteLine($"O valor da CPMF foi de: R$ {value * 0.038}");
 
-            Console.WriteLine($"O novo saldo da conta é: R$ {conta1.GetSaldo()}");
+            Console.WriteLine($"O novo saldo da conta é: R$ {contaCorrente1.GetSaldo()}");
         }
     }
 }

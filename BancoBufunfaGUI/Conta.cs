@@ -8,6 +8,7 @@ namespace BancoBufunfaGUI
 {
     class Conta
     {
+        private int saldo = 10;
         public int numeroConta;
 
         public Conta(int numero)
@@ -20,6 +21,21 @@ namespace BancoBufunfaGUI
         public void SetNumeroConta(int numero)
         {
             this.numeroConta = numero;
+        }
+
+        public int GetNumeroConta()
+        {
+            return this.numeroConta;
+        }
+
+        public double GetSaldo()
+        {
+            return saldo;
+        }
+
+        public void SetSaldoDeposito(double value)
+        {
+            this.saldo += value;
         }
     }
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Meus documentos\\Desktop\\Programação e Estudos\\Cursos\\Curso de Férias\\Banco Bufunfa\\BancoBufunfa\\BancoBufunfaGUI\\BancoBufunfaGUI.csproj",
+      "projectUniqueName": "D:\\Meus documentos\\Desktop\\Programação e Estudos\\Cursos\\Curso de Férias\\Banco Bufunfa\\BufunfaBank\\BancoBufunfaGUI\\BancoBufunfaGUI.csproj",
       "projectName": "BancoBufunfaGUI",
-      "projectPath": "D:\\Meus documentos\\Desktop\\Programação e Estudos\\Cursos\\Curso de Férias\\Banco Bufunfa\\BancoBufunfa\\BancoBufunfaGUI\\BancoBufunfaGUI.csproj",
+      "projectPath": "D:\\Meus documentos\\Desktop\\Programação e Estudos\\Cursos\\Curso de Férias\\Banco Bufunfa\\BufunfaBank\\BancoBufunfaGUI\\BancoBufunfaGUI.csproj",
       "packagesPath": "C:\\Users\\Computador Pessoal\\.nuget\\packages\\",
-      "outputPath": "D:\\Meus documentos\\Desktop\\Programação e Estudos\\Cursos\\Curso de Férias\\Banco Bufunfa\\BancoBufunfa\\BancoBufunfaGUI\\obj\\",
+      "outputPath": "D:\\Meus documentos\\Desktop\\Programação e Estudos\\Cursos\\Curso de Férias\\Banco Bufunfa\\BufunfaBank\\BancoBufunfaGUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Computador Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config",

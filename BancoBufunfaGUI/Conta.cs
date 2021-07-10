@@ -9,6 +9,10 @@ namespace BancoBufunfaGUI
     public class Conta
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        private double saldo = 10;
+>>>>>>> Stashed changes
 =======
         private double saldo = 10;
 >>>>>>> Stashed changes
@@ -52,6 +56,9 @@ namespace BancoBufunfaGUI
             this.saldo -= value + (value * 0.038);
             return true;
         }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
 }

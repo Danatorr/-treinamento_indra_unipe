@@ -8,6 +8,7 @@ namespace BancoBufunfaGUI
 {
     class ContaCorrente
     {
+<<<<<<< Updated upstream
         private double saldo = 10;
         public int numeroConta;
 
@@ -22,12 +23,15 @@ namespace BancoBufunfaGUI
         }
 
         public bool SetSaldoSaque(double value)
+=======
+        Random randomId = new Random();
+        //Construtor Conta Corrente
+        public ContaCorrente(int numero)
+>>>>>>> Stashed changes
         {
-            if (saldo < value * 1.038)
-                return false;
-
-            this.saldo -=  value + (value * 0.038);
-            return true;
+            Console.WriteLine("Gerando o número da conta...  ");
+            numero = randomId.Next(1, 999999999);
+            this.SetNumeroConta(numero);
         }
 
         public int GetNumeroConta()

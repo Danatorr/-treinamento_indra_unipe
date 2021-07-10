@@ -17,9 +17,17 @@ namespace BancoBufunfaGUI
 
             */
 
+<<<<<<< Updated upstream
             ContaCorrente conta1 = new ContaCorrente();
 
             Console.WriteLine($"O número da conta é: {conta1.GetNumeroConta()}");
+=======
+            ContaCorrente contaCorrente1 = new ContaCorrente(0);
+            ContaPoupanca contaPoupanca1 = new ContaPoupanca(0);
+
+            contaPoupanca1.SetSaldoDeposito(100);
+            Console.WriteLine($"O rendimento deste mês foi: {contaPoupanca1.GetRendimento()}");
+>>>>>>> Stashed changes
 
             Console.WriteLine(conta1.GetSaldo());
 
@@ -31,7 +39,11 @@ namespace BancoBufunfaGUI
 
             Console.WriteLine("Digite um valor para o saque: ");
             value = Convert.ToDouble(Console.ReadLine());
+<<<<<<< Updated upstream
             conta1.SetSaldoSaque(value);
+=======
+            contaCorrente1.SetSaldoSaqueContaCorrente(value);
+>>>>>>> Stashed changes
             Console.WriteLine($"O valor da CPMF foi de: R$ {value * 0.038}");
 
             Console.WriteLine($"O novo saldo da conta é: R$ {conta1.GetSaldo()}");

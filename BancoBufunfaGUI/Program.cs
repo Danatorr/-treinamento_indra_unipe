@@ -9,10 +9,11 @@ namespace BancoBufunfaGUI
             /*
             TODO:
 
+            Saque Conta Corrente - V
             Saque - V
             Deposito - V
             CPMF - V
-            Rendimentos Poupança
+            Rendimentos Poupança - V
             Cadastro número conta - V
 
             */

@@ -17,7 +17,8 @@ namespace BancoBufunfaGUI
             this.SetNumeroConta(numero);
         }
 
-        public bool SetSaldoSaqueContaCorrente(double value)
+        //Override para saque conta corrente
+        public override bool SetSaldoSaque(double value)
         {
             if (this.saldo < value * 1.038)
                 return false;

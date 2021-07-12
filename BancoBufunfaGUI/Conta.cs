@@ -32,5 +32,15 @@ namespace BancoBufunfaGUI
         {
             this.saldo += value;
         }
+
+        //Virtual possibilita o override para as outras classes
+        public virtual bool SetSaldoSaque(double value)
+        {
+            if (this.saldo < value)
+                return false;
+
+            this.saldo -= value;
+            return true;
+        }
     }
 }

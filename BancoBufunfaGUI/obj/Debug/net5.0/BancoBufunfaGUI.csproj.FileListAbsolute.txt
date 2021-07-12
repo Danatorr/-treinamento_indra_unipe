@@ -3,3 +3,14 @@ D:\Meus documentos\Desktop\Programação e Estudos\Cursos\Curso de Férias\Banco
 D:\Meus documentos\Desktop\Programação e Estudos\Cursos\Curso de Férias\Banco Bufunfa\BufunfaBank\BancoBufunfaGUI\obj\Debug\net5.0\BancoBufunfaGUI.AssemblyInfoInputs.cache
 D:\Meus documentos\Desktop\Programação e Estudos\Cursos\Curso de Férias\Banco Bufunfa\BufunfaBank\BancoBufunfaGUI\obj\Debug\net5.0\BancoBufunfaGUI.AssemblyInfo.cs
 D:\Meus documentos\Desktop\Programação e Estudos\Cursos\Curso de Férias\Banco Bufunfa\BufunfaBank\BancoBufunfaGUI\obj\Debug\net5.0\BancoBufunfaGUI.csproj.CoreCompileInputs.cache
+D:\Meus documentos\Desktop\Programação e Estudos\Cursos\Curso de Férias\Banco Bufunfa\BufunfaBank\BancoBufunfaGUI\bin\Debug\net5.0\BancoBufunfaGUI.exe
+D:\Meus documentos\Desktop\Programação e Estudos\Cursos\Curso de Férias\Banco Bufunfa\BufunfaBank\BancoBufunfaGUI\bin\Debug\net5.0\BancoBufunfaGUI.deps.json
+D:\Meus documentos\Desktop\Programação e Estudos\Cursos\Curso de Férias\Banco Bufunfa\BufunfaBank\BancoBufunfaGUI\bin\Debug\net5.0\BancoBufunfaGUI.runtimeconfig.json
+D:\Meus documentos\Desktop\Programação e Estudos\Cursos\Curso de Férias\Banco Bufunfa\BufunfaBank\BancoBufunfaGUI\bin\Debug\net5.0\BancoBufunfaGUI.runtimeconfig.dev.json
+D:\Meus documentos\Desktop\Programação e Estudos\Cursos\Curso de Férias\Banco Bufunfa\BufunfaBank\BancoBufunfaGUI\bin\Debug\net5.0\BancoBufunfaGUI.dll
+D:\Meus documentos\Desktop\Programação e Estudos\Cursos\Curso de Férias\Banco Bufunfa\BufunfaBank\BancoBufunfaGUI\bin\Debug\net5.0\ref\BancoBufunfaGUI.dll
+D:\Meus documentos\Desktop\Programação e Estudos\Cursos\Curso de Férias\Banco Bufunfa\BufunfaBank\BancoBufunfaGUI\bin\Debug\net5.0\BancoBufunfaGUI.pdb
+D:\Meus documentos\Desktop\Programação e Estudos\Cursos\Curso de Férias\Banco Bufunfa\BufunfaBank\BancoBufunfaGUI\obj\Debug\net5.0\BancoBufunfaGUI.dll
+D:\Meus documentos\Desktop\Programação e Estudos\Cursos\Curso de Férias\Banco Bufunfa\BufunfaBank\BancoBufunfaGUI\obj\Debug\net5.0\ref\BancoBufunfaGUI.dll
+D:\Meus documentos\Desktop\Programação e Estudos\Cursos\Curso de Férias\Banco Bufunfa\BufunfaBank\BancoBufunfaGUI\obj\Debug\net5.0\BancoBufunfaGUI.pdb
+D:\Meus documentos\Desktop\Programação e Estudos\Cursos\Curso de Férias\Banco Bufunfa\BufunfaBank\BancoBufunfaGUI\obj\Debug\net5.0\BancoBufunfaGUI.genruntimeconfig.cache

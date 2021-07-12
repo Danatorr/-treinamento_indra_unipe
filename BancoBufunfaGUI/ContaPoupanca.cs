@@ -18,7 +18,8 @@ namespace BancoBufunfaGUI
             this.SetNumeroConta(numero);
         }
 
-        public bool SetSaldoSaquePoupanca(double value)
+        //Override para saque poupança
+        public override bool SetSaldoSaque(double value)
         {
             if (this.saldo < value)
                 return false;

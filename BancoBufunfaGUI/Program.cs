@@ -35,7 +35,7 @@ namespace BancoBufunfaGUI
 
             Console.WriteLine("Digite um valor para o saque: ");
             value = Convert.ToDouble(Console.ReadLine());
-            contaCorrente1.SetSaldoSaqueContaCorrente(value);
+            contaCorrente1.SetSaldoSaque(value);
             Console.WriteLine($"O valor da CPMF foi de: R$ {(value * 0.038):N2}");
 
             Console.WriteLine($"O novo saldo da conta é:  {contaCorrente1.GetSaldo():C}");

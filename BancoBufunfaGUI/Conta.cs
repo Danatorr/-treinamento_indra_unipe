@@ -6,28 +6,17 @@ using System.Threading.Tasks;
 
 namespace BancoBufunfaGUI
 {
-    public class Conta
+    public class Conta : Cliente
     {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-        private double saldo = 10;
->>>>>>> Stashed changes
-=======
-        private double saldo = 10;
->>>>>>> Stashed changes
-=======
-        private double saldo = 10;
->>>>>>> Stashed changes
+        protected double saldo = 10;
         public int numeroConta;
+        public int numero;
+
 
         public void SetNumeroConta(int numero)
         {
             this.numeroConta = numero;
         }
-<<<<<<< Updated upstream
-=======
 
         public int GetNumeroConta()
         {
@@ -44,28 +33,14 @@ namespace BancoBufunfaGUI
             this.saldo += value;
         }
 
-        public bool SetSaldoSaquePoupanca(double value)
+        //Virtual possibilita o override para as outras classes
+        public virtual bool SetSaldoSaque(double value)
         {
-            if (this.GetSaldo() < value)
+            if (this.saldo < value)
                 return false;
 
             this.saldo -= value;
             return true;
         }
-        public bool SetSaldoSaqueContaCorrente(double value)
-        {
-            if (this.saldo < value * 1.038)
-                return false;
-
-            this.saldo -= value + (value * 0.038);
-            return true;
-        }
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     }
 }

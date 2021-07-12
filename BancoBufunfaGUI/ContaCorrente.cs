@@ -6,56 +6,25 @@ using System.Threading.Tasks;
 
 namespace BancoBufunfaGUI
 {
-    class ContaCorrente
+    public class ContaCorrente : Conta
     {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        private double saldo = 10;
-        public int numeroConta;
 
-        public double GetSaldo()
-        {
-            return saldo;
-        }
+        Random random = new Random();
 
-        public void SetSaldoDeposito(double value)
-        {
-            this.saldo += value;
-        }
-
-        public bool SetSaldoSaque(double value)
-=======
-        Random randomId = new Random();
-        //Construtor Conta Corrente
         public ContaCorrente(int numero)
->>>>>>> Stashed changes
-=======
-        Random randomId = new Random();
-        //Construtor Conta Corrente
-        public ContaCorrente(int numero)
->>>>>>> Stashed changes
         {
-            Console.WriteLine("Gerando o número da conta...  ");
-            numero = randomId.Next(1, 999999999);
+            numero = random.Next(1, 999999999);
             this.SetNumeroConta(numero);
-<<<<<<< Updated upstream
         }
 
-        public int GetNumeroConta()
+        //Override para saque conta corrente
+        public override bool SetSaldoSaque(double value)
         {
-            return this.numeroConta;
-=======
-        Random randomId = new Random();
-        //Construtor Conta Corrente
-        public ContaCorrente(int numero)
-        {
-            Console.WriteLine("Gerando o número da conta...  ");
-            numero = randomId.Next(1, 999999999);
-            this.SetNumeroConta(numero);
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+            if (this.saldo < value * 1.038)
+                return false;
+
+            this.saldo -=  value + (value * 0.038);
+            return true;
         }
     }
 }

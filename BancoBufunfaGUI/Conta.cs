@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BancoBufunfaGUI
 {
-    public class Conta
+    public class Conta : Cliente
     {
         protected double saldo = 10;
         public int numeroConta;

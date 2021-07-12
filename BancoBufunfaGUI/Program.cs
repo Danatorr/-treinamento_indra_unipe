@@ -15,11 +15,35 @@ namespace BancoBufunfaGUI
             CPMF - V
             Rendimentos Poupança - V
             Cadastro número conta - V
+            Cliente - 
 
             */
 
             ContaCorrente contaCorrente1 = new ContaCorrente(0);
             ContaPoupanca contaPoupanca1 = new ContaPoupanca(0);
+
+            /*
+            Console.Write("Insira o nome do titular da conta corrente: ");
+            contaCorrente1.SetTitular(Console.ReadLine());
+            Console.WriteLine(contaCorrente1.GetTitular());
+            Console.Write("Insira o cpf do titular da conta corrente (ex: 000.000.000-00): ");
+            contaCorrente1.SetCpf(Console.ReadLine());
+            Console.WriteLine(contaCorrente1.GetCpf());
+            Console.Write("Insira a profissão do titular da conta corrente: ");
+            contaCorrente1.SetProfissao(Console.ReadLine());
+            Console.WriteLine(contaCorrente1.GetProfissao());
+
+
+            Console.Write("Insira o nome do titular da conta corrente: ");
+            contaCorrente1.SetTitular(Console.ReadLine());
+            Console.WriteLine(contaCorrente1.GetTitular());
+            Console.Write("Insira o cpf do titular da conta corrente (ex: 000.000.000-00): ");
+            contaCorrente1.SetCpf(Console.ReadLine());
+            Console.WriteLine(contaCorrente1.GetCpf());
+            Console.Write("Insira a profissão do titular da conta corrente: ");
+            contaCorrente1.SetProfissao(Console.ReadLine());
+            Console.WriteLine(contaCorrente1.GetProfissao());
+            */
 
             contaPoupanca1.SetSaldoDeposito(100);
             Console.WriteLine($"O rendimento da poupança deste mês foi de: {contaPoupanca1.GetRendimento()}");

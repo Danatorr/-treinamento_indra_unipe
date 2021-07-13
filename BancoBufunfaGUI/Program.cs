@@ -15,7 +15,7 @@ namespace BancoBufunfaGUI
             CPMF - V
             Rendimentos Poupança - V
             Cadastro número conta - V
-            Cliente - 
+            Cliente - V
 
             */
 

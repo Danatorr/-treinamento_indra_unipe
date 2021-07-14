@@ -42,5 +42,18 @@ namespace BancoBufunfaGUI
             this.saldo -= value;
             return true;
         }
+
+        public bool Transferir(double value, Conta conta)
+        {
+            if (value > this.saldo)
+            {
+                Console.WriteLine("A transferência falhou, cheque seu saldo e tente novamente!");
+                return false;
+            }
+            this.SetSaldoSaque(value);
+            conta.SetSaldoDeposito(value);
+            Console.WriteLine($"Transferência de {value} para {conta.GetTitular()} feita com sucesso!");
+            return true;
+        }
     }
 }

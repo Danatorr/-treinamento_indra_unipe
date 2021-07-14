@@ -16,6 +16,7 @@ namespace BancoBufunfaGUI
             Rendimentos Poupança - V
             Cadastro número conta - V
             Cliente - V
+            Transferência entre contas - V
 
             */
 
@@ -27,6 +28,9 @@ namespace BancoBufunfaGUI
 
             Console.WriteLine($"O número da conta é: {contaCorrente1.GetNumeroConta()}");
             Console.WriteLine($"O número da conta é: {contaPoupanca1.GetNumeroConta()}");
+
+            contaPoupanca1.Transferir(10, contaCorrente1);
+            Console.WriteLine(contaPoupanca1.Transferir(10, contaCorrente1));
 
             Console.WriteLine("Digite um valor para o depósito: ");
             double value = Convert.ToDouble(Console.ReadLine());

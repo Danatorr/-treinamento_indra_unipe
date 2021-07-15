@@ -8,10 +8,39 @@ namespace BancoBufunfaGUI
 {
     public class Conta : Cliente
     {
+        Conta[] contas = { };
         protected double saldo = 10;
         public int numeroConta;
         public int numero;
+        public string codigo;
 
+        public void CriarConta()
+        {
+            Conta conta = new Conta();
+
+            contas += conta; 
+        }
+
+        public void Inicializar()
+        {
+            Console.WriteLine("==============================");
+            Console.WriteLine("|        Banco Bufunfa       |");
+            Console.WriteLine("==============================");
+            Console.WriteLine("");
+            Console.WriteLine("Insira o código da operação que deseja realizar: \n\n");
+            Console.WriteLine("[1] Depósito\n[2] Saque\n[3] Transferência\n[4] Criar conta\n[5] Checar conta\n[6] Atualizar conta\n[7] Deletar conta");
+            codigo = Console.ReadLine();
+
+            switch (codigo)
+            {
+                case "1":
+                    SetSaldoDeposito();
+                    break;
+                case "2":
+
+                    break;
+            }
+        }
 
         public void SetNumeroConta(int numero)
         {
@@ -28,7 +57,7 @@ namespace BancoBufunfaGUI
             return saldo;
         }
 
-        public void SetSaldoDeposito(double value)
+        public void SetSaldoDeposito(double value, Conta conta)
         {
             this.saldo += value;
         }

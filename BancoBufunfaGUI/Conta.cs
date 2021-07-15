@@ -20,7 +20,7 @@ namespace BancoBufunfaGUI
         {
             Conta conta = new Conta();
 
-            contas += conta; //Array append para cada conta nova
+            //Array append para cada conta nova
         }
 
         public void Inicializar()
@@ -40,7 +40,7 @@ namespace BancoBufunfaGUI
                     Console.Write("Insira o valor do depósito: R$");
                     value = Convert.ToInt32(Console.ReadLine());
                     Console.Write("Insira o número da conta para depósito: ");
-                    conta = (Console.ReadLine()); //Precisa pegar do usuário o número da conta
+                    = (Console.ReadLine()); //Precisa pegar do usuário o número da conta para depositar
 
                     SetSaldoDeposito(value, /*precisa de um número de conta*/);
                     break;
@@ -88,7 +88,7 @@ namespace BancoBufunfaGUI
                 return false;
             }
             this.SetSaldoSaque(value);
-            conta.SetSaldoDeposito(value);
+            conta.SetSaldoDeposito(value, conta);
             Console.WriteLine($"Transferência de {value} para {conta.GetTitular()} feita com sucesso!");
             return true;
         }

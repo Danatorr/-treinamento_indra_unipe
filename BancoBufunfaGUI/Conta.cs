@@ -13,12 +13,14 @@ namespace BancoBufunfaGUI
         public int numeroConta;
         public int numero;
         public string codigo;
+        private double value;
 
+        //TODO
         public void CriarConta()
         {
             Conta conta = new Conta();
 
-            contas += conta; 
+            contas += conta; //Array append para cada conta nova
         }
 
         public void Inicializar()
@@ -31,10 +33,16 @@ namespace BancoBufunfaGUI
             Console.WriteLine("[1] Depósito\n[2] Saque\n[3] Transferência\n[4] Criar conta\n[5] Checar conta\n[6] Atualizar conta\n[7] Deletar conta");
             codigo = Console.ReadLine();
 
+            //TODO
             switch (codigo)
             {
                 case "1":
-                    SetSaldoDeposito();
+                    Console.Write("Insira o valor do depósito: R$");
+                    value = Convert.ToInt32(Console.ReadLine());
+                    Console.Write("Insira o número da conta para depósito: ");
+                    conta = (Console.ReadLine()); //Precisa pegar do usuário o número da conta
+
+                    SetSaldoDeposito(value, /*precisa de um número de conta*/);
                     break;
                 case "2":
 

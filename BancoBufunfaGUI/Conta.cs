@@ -21,6 +21,7 @@ namespace BancoBufunfaGUI
             Conta conta = new Conta();
 
             //Array append para cada conta nova
+            contas.Array.Resize(contas.Length + 1);
         }
 
         public void Inicializar()

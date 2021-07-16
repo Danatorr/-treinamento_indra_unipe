@@ -10,7 +10,7 @@ namespace BancoBufunfaGUI
     {
         string titular;
         string cpf;
-        string profissao;
+        string senha;
 
         public Cliente()
         {
@@ -20,9 +20,9 @@ namespace BancoBufunfaGUI
             Console.Write("Insira o cpf do titular da conta (ex: 000.000.000-00): ");
             this.SetCpf(Console.ReadLine());
             Console.WriteLine(this.GetCpf());
-            Console.Write("Insira a profissão do titular da conta: ");
-            this.SetProfissao(Console.ReadLine());
-            Console.WriteLine(this.GetProfissao());
+            Console.Write("Insira a senha da conta: ");
+            this.SetSenha(Console.ReadLine());
+            Console.WriteLine($"A sua senha vai ser: {this.GetSenha()}");
         }
 
         public void SetTitular(string nome)
@@ -45,14 +45,14 @@ namespace BancoBufunfaGUI
             return cpf;
         }
 
-        public void SetProfissao(string clienteProfissao)
+        private void SetSenha(string _senha)
         {
-            cpf = clienteProfissao;
+            senha = _senha;
         }
 
-        public string GetProfissao()
+        private string GetSenha()
         {
-            return profissao;
+            return this.senha;
         }
     }
 }

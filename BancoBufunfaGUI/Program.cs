@@ -19,31 +19,38 @@ namespace BancoBufunfaGUI
             Transferência entre contas - V
 
             */
-            
-            ContaCorrente contaCorrente1 = new ContaCorrente(0);
-            ContaPoupanca contaPoupanca1 = new ContaPoupanca(0);
+            Conta criaConta = new Conta();
 
-            contaPoupanca1.SetSaldoDeposito(100);
-            Console.WriteLine($"O rendimento da poupança deste mês foi de: {contaPoupanca1.GetRendimento()}");
+            criaConta.CriarContaCorrente();
+            criaConta.CriarContaCorrente();
 
-            Console.WriteLine($"O número da conta é: {contaCorrente1.GetNumeroConta()}");
-            Console.WriteLine($"O número da conta é: {contaPoupanca1.GetNumeroConta()}");
+            Console.WriteLine(criaConta.NumeroContaOperacao());
+            Console.WriteLine(criaConta.NumeroContaOperacao());
 
-            contaPoupanca1.Transferir(10, contaCorrente1);
-            Console.WriteLine(contaPoupanca1.Transferir(10, contaCorrente1));
+            //ContaCorrente contaCorrente1 = new ContaCorrente(0);
+            //ContaPoupanca contaPoupanca1 = new ContaPoupanca(0);
+
+            //contaPoupanca1.SetSaldoDeposito(100);
+            //Console.WriteLine($"O rendimento da poupança deste mês foi de: {contaPoupanca1.GetRendimento()}");
+
+            //Console.WriteLine($"O número da conta é: {contaCorrente1.GetNumeroConta()}");
+            //Console.WriteLine($"O número da conta é: {contaPoupanca1.GetNumeroConta()}");
+
+            //contaPoupanca1.Transferir(10, contaCorrente1);
+            //Console.WriteLine(contaPoupanca1.Transferir(10, contaCorrente1));
 
             Console.WriteLine("Digite um valor para o depósito: ");
             double value = Convert.ToDouble(Console.ReadLine());
-            contaCorrente1.SetSaldoDeposito(value);
+            //contaCorrente1.SetSaldoDeposito(value);
 
-            Console.WriteLine($"O novo saldo da conta é: R$ {contaCorrente1.GetSaldo()}");
+            //Console.WriteLine($"O novo saldo da conta é: R$ {contaCorrente1.GetSaldo()}");
 
             Console.WriteLine("Digite um valor para o saque: ");
             value = Convert.ToDouble(Console.ReadLine());
-            contaCorrente1.SetSaldoSaque(value);
+            //contaCorrente1.SetSaldoSaque(value);
             Console.WriteLine($"O valor da CPMF foi de: R$ {(value * 0.038):N2}");
 
-            Console.WriteLine($"O novo saldo da conta é:  {contaCorrente1.GetSaldo():C}");
+            //Console.WriteLine($"O novo saldo da conta é:  {contaCorrente1.GetSaldo():C}");
         }
     }
 }

@@ -12,45 +12,33 @@ namespace BancoBufunfaGUI
         string cpf;
         string senha;
 
-        public Cliente()
-        {
-            Console.Write("Insira o nome do titular da conta: ");
-            this.SetTitular(Console.ReadLine());
-            Console.WriteLine(this.GetTitular());
-            Console.Write("Insira o cpf do titular da conta (ex: 000.000.000-00): ");
-            this.SetCpf(Console.ReadLine());
-            Console.WriteLine(this.GetCpf());
-            Console.Write("Insira a senha da conta: ");
-            this.SetSenha(Console.ReadLine());
-            Console.WriteLine($"A sua senha vai ser: {this.GetSenha()}");
-        }
 
-        public void SetTitular(string nome)
+        protected void SetTitular(string nome)
         {
             titular = nome;
         }
 
-        public string GetTitular()
+        protected string GetTitular()
         {
             return titular;
         }
 
-        public void SetCpf(string numeroCpf)
+        protected void SetCpf(string numeroCpf)
         {
             cpf = numeroCpf;
         }
 
-        public string GetCpf()
+        protected string GetCpf()
         {
             return cpf;
         }
 
-        private void SetSenha(string _senha)
+        protected void SetSenha(string _senha)
         {
             senha = _senha;
         }
 
-        private string GetSenha()
+        protected string GetSenha()
         {
             return this.senha;
         }

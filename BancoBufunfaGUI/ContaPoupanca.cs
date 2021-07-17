@@ -14,6 +14,14 @@ namespace BancoBufunfaGUI
 
         public ContaPoupanca(int numero)
         {
+            Console.Write("Insira o nome do titular da conta: ");
+            this.SetTitular(Console.ReadLine());
+            Console.Write("Insira o cpf do titular da conta (ex: 000.000.000-00): ");
+            this.SetCpf(Console.ReadLine());
+            Console.Write("Insira a senha da conta: ");
+            this.SetSenha(Console.ReadLine());
+            Console.WriteLine($"A sua senha vai ser: {this.GetSenha()}");
+
             numero = random.Next(1, 999999999);
             this.SetNumeroConta(numero);
         }

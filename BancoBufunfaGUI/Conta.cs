@@ -8,7 +8,7 @@ namespace BancoBufunfaGUI
 {
     public class Conta : Cliente
     {
-        Conta[] contas = { };
+        List<Conta> contas = new List<Conta>();
         protected double saldo = 10;
         public int numeroConta;
         public int numero;
@@ -16,12 +16,12 @@ namespace BancoBufunfaGUI
         private double value;
 
         //TODO
-        public void CriarConta()
+        public void CriarContaCorrente()
         {
-            Conta conta = new Conta();
-
+            ContaCorrente contaCorrente = new ContaCorrente();
             //Array append para cada conta nova
-            contas.Array.Resize(contas.Length + 1);
+            contas.Add(contaCorrente);
+            Console.WriteLine("Conta criada com sucesso!");
         }
 
         public void Inicializar()
@@ -40,10 +40,10 @@ namespace BancoBufunfaGUI
                 case "1":
                     Console.Write("Insira o valor do depósito: R$");
                     value = Convert.ToInt32(Console.ReadLine());
-                    Console.Write("Insira o número da conta para depósito: ");
-                    = (Console.ReadLine()); //Precisa pegar do usuário o número da conta para depositar
+                    //Console.Write("Insira o número da conta para depósito: ");
+                    //= (Console.ReadLine()); //Precisa pegar do usuário o número da conta para depositar
 
-                    SetSaldoDeposito(value, /*precisa de um número de conta*/);
+                    //SetSaldoDeposito(value, /*precisa de um número de conta*/);
                     break;
                 case "2":
 
@@ -61,9 +61,30 @@ namespace BancoBufunfaGUI
             return this.numeroConta;
         }
 
+        public bool NumeroContaOperacao()
+        {
+            int numeroContaEncontrada;
+
+            Console.Write("Insira o número da conta que deseja encontrar: ");
+            numeroContaEncontrada = Console.Read();
+
+            foreach (Conta conta in contas)
+            {
+                if (conta.numeroConta == numeroContaEncontrada)
+                {
+                    Console.WriteLine($"Achei a conta {numeroContaEncontrada}!");
+                }
+                else
+                {
+                    Console.WriteLine($"Não foi possível localizar a conta {numeroContaEncontrada}");
+                }
+            }
+            return true;
+        }
+
         public double GetSaldo()
         {
-            return saldo;
+            return this.saldo;
         }
 
         public void SetSaldoDeposito(double value, Conta conta)

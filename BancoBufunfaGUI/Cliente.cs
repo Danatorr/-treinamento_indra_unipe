@@ -20,7 +20,7 @@ namespace BancoBufunfaGUI
             Console.Write("Insira o cpf do titular da conta (ex: 000.000.000-00): ");
             this.SetCpf(Console.ReadLine());
             Console.WriteLine(this.GetCpf());
-            Console.Write("Insira a profissão do titular da conta: ");
+            Console.Write("Insira a senha da conta: ");
             this.SetProfissao(Console.ReadLine());
             Console.WriteLine(this.GetProfissao());
         }

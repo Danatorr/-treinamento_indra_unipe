@@ -15,14 +15,6 @@ namespace BancoBufunfaGUI
         public string codigo;
         private double value;
 
-        //TODO
-        public void CriarConta()
-        {
-            Conta conta = new Conta();
-
-            //Array append para cada conta nova
-        }
-
         public void SetNumeroConta(int numero)
         {
             this.numeroConta = numero;

@@ -54,7 +54,7 @@ namespace BancoBufunfaGUI
             }
             this.SetSaldoSaque(value);
             conta.SetSaldoDeposito(value, conta);
-            Console.WriteLine($"Transferência de {value} para {conta.GetTitular()} feita com sucesso!");
+            Console.WriteLine($"Transferência de {value} para {conta.getTitular()} feita com sucesso!");
             return true;
         }
     }

@@ -1,4 +1,5 @@
 ﻿using System;
+using BancoBufunfa.Modelos;
 
 namespace BancoBufunfaGUI
 {

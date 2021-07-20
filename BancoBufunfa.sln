@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoBufunfaGUI", "BancoBufunfaGUI\BancoBufunfaGUI.csproj", "{48CC0C50-B731-4EE3-81B9-2A0DAEFE0E6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BancoBufunfaGUI", "BancoBufunfaGUI\BancoBufunfaGUI.csproj", "{48CC0C50-B731-4EE3-81B9-2A0DAEFE0E6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoBufunfa.Modelos", "BancoBufunfa.Modelos\BancoBufunfa.Modelos.csproj", "{32D9E6C0-A29C-42A6-8750-28AB585DB555}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{48CC0C50-B731-4EE3-81B9-2A0DAEFE0E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48CC0C50-B731-4EE3-81B9-2A0DAEFE0E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48CC0C50-B731-4EE3-81B9-2A0DAEFE0E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32D9E6C0-A29C-42A6-8750-28AB585DB555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D9E6C0-A29C-42A6-8750-28AB585DB555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D9E6C0-A29C-42A6-8750-28AB585DB555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D9E6C0-A29C-42A6-8750-28AB585DB555}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

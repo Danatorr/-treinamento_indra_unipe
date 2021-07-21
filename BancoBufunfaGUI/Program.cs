@@ -18,7 +18,7 @@ namespace BancoBufunfaGUI
             Cadastro número conta - V
             Cliente - V
             Transferência entre contas - V
-            CRUD - 
+            CRUD - F
 
             */
             

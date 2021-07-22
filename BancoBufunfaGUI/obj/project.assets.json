@@ -1,45 +1,26 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
-      "BancoBufunfa.Modelos/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/BancoBufunfa.Modelos.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BancoBufunfa.Modelos.dll": {}
-        }
-      }
-    }
+    "net5.0": {}
   },
-  "libraries": {
-    "BancoBufunfa.Modelos/1.0.0": {
-      "type": "project",
-      "path": "../BancoBufunfa.Modelos/BancoBufunfa.Modelos.csproj",
-      "msbuildProject": "../BancoBufunfa.Modelos/BancoBufunfa.Modelos.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0": [
-      "BancoBufunfa.Modelos >= 1.0.0"
-    ]
+    "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Computador Pessoal\\.nuget\\packages\\": {}
+    "C:\\Users\\usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Meus documentos\\Desktop\\Programação e Estudos\\Cursos\\Curso de Férias\\Banco Bufunfa\\BufunfaBank\\BancoBufunfaGUI\\BancoBufunfaGUI.csproj",
+      "projectUniqueName": "C:\\Users\\usuario\\Documents\\GitHub\\-treinamento_indra_unipe\\BancoBufunfaGUI\\BancoBufunfaGUI.csproj",
       "projectName": "BancoBufunfaGUI",
-      "projectPath": "D:\\Meus documentos\\Desktop\\Programação e Estudos\\Cursos\\Curso de Férias\\Banco Bufunfa\\BufunfaBank\\BancoBufunfaGUI\\BancoBufunfaGUI.csproj",
-      "packagesPath": "C:\\Users\\Computador Pessoal\\.nuget\\packages\\",
-      "outputPath": "D:\\Meus documentos\\Desktop\\Programação e Estudos\\Cursos\\Curso de Férias\\Banco Bufunfa\\BufunfaBank\\BancoBufunfaGUI\\obj\\",
+      "projectPath": "C:\\Users\\usuario\\Documents\\GitHub\\-treinamento_indra_unipe\\BancoBufunfaGUI\\BancoBufunfaGUI.csproj",
+      "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\usuario\\Documents\\GitHub\\-treinamento_indra_unipe\\BancoBufunfaGUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Computador Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -52,11 +33,7 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {
-            "D:\\Meus documentos\\Desktop\\Programação e Estudos\\Cursos\\Curso de Férias\\Banco Bufunfa\\BufunfaBank\\BancoBufunfa.Modelos\\BancoBufunfa.Modelos.csproj": {
-              "projectPath": "D:\\Meus documentos\\Desktop\\Programação e Estudos\\Cursos\\Curso de Férias\\Banco Bufunfa\\BufunfaBank\\BancoBufunfa.Modelos\\BancoBufunfa.Modelos.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -83,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

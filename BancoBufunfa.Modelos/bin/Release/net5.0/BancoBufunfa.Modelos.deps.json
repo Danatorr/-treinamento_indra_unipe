@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "BancoBufunfaGUI/1.0.0": {
-        "dependencies": {
-          "BancoBufunfa.Modelos": "1.0.0"
-        },
-        "runtime": {
-          "BancoBufunfaGUI.dll": {}
-        }
-      },
       "BancoBufunfa.Modelos/1.0.0": {
         "runtime": {
           "BancoBufunfa.Modelos.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "BancoBufunfaGUI/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "BancoBufunfa.Modelos/1.0.0": {
       "type": "project",
       "serviceable": false,

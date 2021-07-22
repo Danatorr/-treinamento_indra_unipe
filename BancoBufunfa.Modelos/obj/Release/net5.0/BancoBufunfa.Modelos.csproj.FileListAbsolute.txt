@@ -1,0 +1,12 @@
+C:\Users\usuario\Documents\GitHub\-treinamento_indra_unipe\BancoBufunfa.Modelos\obj\Release\net5.0\BancoBufunfa.Modelos.csproj.AssemblyReference.cache
+C:\Users\usuario\Documents\GitHub\-treinamento_indra_unipe\BancoBufunfa.Modelos\obj\Release\net5.0\BancoBufunfa.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\Documents\GitHub\-treinamento_indra_unipe\BancoBufunfa.Modelos\obj\Release\net5.0\BancoBufunfa.Modelos.AssemblyInfoInputs.cache
+C:\Users\usuario\Documents\GitHub\-treinamento_indra_unipe\BancoBufunfa.Modelos\obj\Release\net5.0\BancoBufunfa.Modelos.AssemblyInfo.cs
+C:\Users\usuario\Documents\GitHub\-treinamento_indra_unipe\BancoBufunfa.Modelos\obj\Release\net5.0\BancoBufunfa.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\-treinamento_indra_unipe\BancoBufunfa.Modelos\bin\Release\net5.0\BancoBufunfa.Modelos.deps.json
+C:\Users\usuario\Documents\GitHub\-treinamento_indra_unipe\BancoBufunfa.Modelos\bin\Release\net5.0\BancoBufunfa.Modelos.dll
+C:\Users\usuario\Documents\GitHub\-treinamento_indra_unipe\BancoBufunfa.Modelos\bin\Release\net5.0\ref\BancoBufunfa.Modelos.dll
+C:\Users\usuario\Documents\GitHub\-treinamento_indra_unipe\BancoBufunfa.Modelos\bin\Release\net5.0\BancoBufunfa.Modelos.pdb
+C:\Users\usuario\Documents\GitHub\-treinamento_indra_unipe\BancoBufunfa.Modelos\obj\Release\net5.0\BancoBufunfa.Modelos.dll
+C:\Users\usuario\Documents\GitHub\-treinamento_indra_unipe\BancoBufunfa.Modelos\obj\Release\net5.0\ref\BancoBufunfa.Modelos.dll
+C:\Users\usuario\Documents\GitHub\-treinamento_indra_unipe\BancoBufunfa.Modelos\obj\Release\net5.0\BancoBufunfa.Modelos.pdb

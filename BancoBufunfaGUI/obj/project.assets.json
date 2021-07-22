@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "BancoBufunfa.Modelos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/BancoBufunfa.Modelos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BancoBufunfa.Modelos.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BancoBufunfa.Modelos/1.0.0": {
+      "type": "project",
+      "path": "../BancoBufunfa.Modelos/BancoBufunfa.Modelos.csproj",
+      "msbuildProject": "../BancoBufunfa.Modelos/BancoBufunfa.Modelos.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "BancoBufunfa.Modelos >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\usuario\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\usuario\\Documents\\GitHub\\-treinamento_indra_unipe\\BancoBufunfa.Modelos\\BancoBufunfa.Modelos.csproj": {
+              "projectPath": "C:\\Users\\usuario\\Documents\\GitHub\\-treinamento_indra_unipe\\BancoBufunfa.Modelos\\BancoBufunfa.Modelos.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
